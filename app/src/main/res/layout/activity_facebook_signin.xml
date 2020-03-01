@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".authentication.FacebookSigninActivity">
+
+    <!--    <com.facebook.login.widget.LoginButton-->
+    <!--        android:id="@+id/login_button"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:layout_marginBottom="30dp"-->
+    <!--        android:layout_centerInParent="true"/>-->
+
+
+    <Button
+        android:id="@+id/facebook_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#31A832"
+        android:padding="22dp"
+        android:text="Facebook Sign in"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+
+
+    <Button
+        android:id="@+id/facebook_signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="facebook Sign out"
+        android:layout_below="@+id/facebook_signin"
+        android:textAllCaps="false"
+        android:padding="22dp"
+        android:background="#D53434"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        />
+
+</RelativeLayout>
