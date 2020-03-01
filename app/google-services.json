@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "245410573977",
+    "firebase_url": "https://ucas-firebase-application.firebaseio.com",
+    "project_id": "ucas-firebase-application",
+    "storage_bucket": "ucas-firebase-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245410573977:android:b5a0105fac0c6bd8fe1208",
+        "android_client_info": {
+          "package_name": "test.firebase.ucasfirebaseapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245410573977-ig084u4j2ascklhf6cucs6tsru06c34j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "test.firebase.ucasfirebaseapplication",
+            "certificate_hash": "502646b0970e920ff9e460503dc98dfe23e553ba"
+          }
+        },
+        {
+          "client_id": "245410573977-12lmjcpfrjfr39e9nprldpnm0tta53pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDadHeQXVUr_rZo7UuI972N7eQv2TK-D_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245410573977-12lmjcpfrjfr39e9nprldpnm0tta53pi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
